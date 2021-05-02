@@ -140,3 +140,6 @@ cython_debug/
 
 # VS Code
 .vscode/
+
+# my files
+settings.py
