@@ -1,18 +1,18 @@
-from setuptools import setup
-from settings import NAME, VERSION, DESCRIPTION, LINCENSE, PACKAGES, AUTHOR, INSTALL_REQUIRES, SETUP_REQUIRES, TESTS_REQUIRES, TESTS_SUITE, AUTHOR_EMAIL, DOWNLOAD_URL, URL
+from setuptools import find_packages, setup
+
 
 setup(
-    name=NAME,
-    packages=PACKAGES,
-    version=VERSION,
-    description=DESCRIPTION,
-    author=AUTHOR,
-    license=LINCENSE,
-    install_requires=INSTALL_REQUIRES,
-    setup_requires=SETUP_REQUIRES,
-    tests_requires=TESTS_REQUIRES,
-    tests_suite=TESTS_SUITE,
-    author_email=AUTHOR_EMAIL,
-    url=URL,
-    download_url=DOWNLOAD_URL,
+    name='tcenter',
+    packages=find_packages(include=['tcenter']),
+    version='0.1.2',
+    description='A library for center texts',
+    author='Evandro Silva',
+    license='MIT',
+    install_requires=['requirements.txt'],
+    setup_requires=[],
+    tests_requires=['pytest==6.2.3'],
+    tests_suite=['tests'],
+    author_email='evandrojunior1615@gmail.com',
+    url='https://github.com/Suspir0n/tcenter',
+    download_url='https://github.com/Suspir0n/tcenter/archive/refs/tags/0.1.2.tar.gz',
 )
