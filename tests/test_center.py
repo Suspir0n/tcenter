@@ -1,4 +1,4 @@
-from ctext.center import to_center
+from tcenter.center import to_center
 
 def test_to_center_happy_way():
     receive_valid_one = to_center('Olá Mundo', 20)
