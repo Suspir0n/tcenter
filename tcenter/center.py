@@ -1,16 +1,16 @@
-def to_center(text, space, object=str()):
+def to_center(title, space, object=str()):
     """
-    This function is reponsible for centralizing the text. accepted at least two vestments.
-    :param text: receive any text, only string.
+    This function is reponsible for centralizing the title. accepted at least two vestments.
+    :param title: receive any title, only string.
     :param space: receive any value, only numbers.
     :param object: receive any object, ex: - . = ~ < > _ | between others.
     :return: The text centralized.
     """
     try:
         if object == '':
-            receive = f'{text:^{space}}'
+            receive = f'{title:^{space}}'
         else:
-            receive = f'{text:{object}^{space}}'
+            receive = f'{title:{object}^{space}}'
     except ValueError as err:
         return f'information value invalid, {err}'
     except TypeError as err:
