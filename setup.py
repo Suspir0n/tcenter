@@ -4,8 +4,8 @@ from setuptools import find_packages, setup
 setup(
     name='tcenter',
     packages=find_packages(include=['tcenter']),
-    version='0.1.4',
-    description='A library for center texts',
+    version='0.1.3.1',
+    description='A library for center titles',
     author='Evandro Silva',
     license='MIT',
     install_requires=[],
@@ -14,10 +14,10 @@ setup(
     tests_suite=['tests'],
     author_email='evandrojunior1615@gmail.com',
     url='https://github.com/Suspir0n/tcenter',
-    download_url='https://github.com/Suspir0n/tcenter/archive/refs/tags/0.1.3.tar.gz',
+    download_url='https://github.com/Suspir0n/tcenter/archive/refs/tags/0.1.3.1.tar.gz',
     python_requires='>=3.6',
     classifiers=[
-        'Development Status :: 0.1.4 - Production/Stable',
+        'Development Status :: 0.1.3.1 - Production/Stable',
         'Environment :: Other Environment',
         'Intended Audience :: Developers',
         'Operating System :: OS Independent',
