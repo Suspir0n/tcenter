@@ -1,6 +1,6 @@
 # Tcenter for Python
 
-A Python library for centralization of title. In this `0.1.3.1` version of tcenter, it allows you to center the title with a number of specific spaces.
+A Python library for centralization of title. In this `0.1.4.1` version of tcenter, it allows you to center the title with a number of specific spaces.
 
 ## Installation
 
